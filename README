@@ -104,7 +104,7 @@ On ASUS Tinkerboard, type "make -f Makefile.server server".
 On PC, type "make -f Makefile.client client".
 
 1. led test.
-   This test will blink led 5 times. 
+   This test will turn led on/off. 
    Connect gpio pin 11 to led control. 
    Connect gpio pin 2 to led 5V. 
    Connect gpio pin 9 to led ground.
@@ -125,7 +125,7 @@ On PC, type "make -f Makefile.client client".
 
 3. i2c lcd test.
    This test will change lcd backlight color.
-   Then it will display two sentences on lcd display.
+   Then it will display text on lcd display.
    Connect gpio pin 3 to lcd display SDA.
    Connect gpio pin 5 to lcd display SCL.
    Connect gpio pin 2 to lcd display 5V.
